@@ -34,7 +34,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,6 +48,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmAltaModificacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAltaModificacion.Designer.cs">
+      <DependentUpon>frmAltaModificacion.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainWindow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +62,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAltaModificacion.resx">
+      <DependentUpon>frmAltaModificacion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainWindow.resx">
       <DependentUpon>MainWindow.cs</DependentUpon>
     </EmbeddedResource>
@@ -65,6 +76,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -88,6 +100,28 @@
       <Project>{389ee1a9-b49b-47b5-8ad4-9f2a8d4b7adf}</Project>
       <Name>negocio</Name>
     </ProjectReference>
+    <ProjectReference Include="..\utilidades\utilidades.csproj">
+      <Project>{8fe6b7f7-5a72-4057-ba09-679222e73c94}</Project>
+      <Name>utilidades</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lupa png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_box_item_product_icon_179239.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4105934-document-edit-edit-document-update-write-writing_113937.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\catalogo_icon_209796.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_item_product_box_icon_179240.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

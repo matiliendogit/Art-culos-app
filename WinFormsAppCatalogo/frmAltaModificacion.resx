@@ -117,20 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="lupa png" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lupa png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="add_box_item_product_icon_179239" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\add_box_item_product_icon_179239.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="4105934-document-edit-edit-document-update-write-writing_113937" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\4105934-document-edit-edit-document-update-write-writing_113937.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="catalogo_icon_209796" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\catalogo_icon_209796.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="delete_item_product_box_icon_179240" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\delete_item_product_box_icon_179240.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

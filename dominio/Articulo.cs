@@ -26,6 +26,7 @@ namespace dominio
 
         public string ImagenUrl { get; set; }
 
-        public float Precio { get; set; }
+        [DisplayName("Precio ($ARS)")]
+        public decimal Precio { get; set; }
     }
 }
